@@ -10,4 +10,5 @@ include collin-shared/python-build.mk
 To use the `.bashrc`, clone this repo into your computer's root directory, and source it in the local `.bashrc` with
 ```
 OS_NAME="INSERT-OS-NAME-HERE"
-source ~/collin-shared/.bashrc```
+source ~/collin-shared/.bashrc
+```
