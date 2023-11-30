@@ -18,7 +18,7 @@ parse_git_branch() {
      if [ $? -ne 0 ]; then
         return
      fi
-     local repo_name=$(basename `git rev-parse --show-toplevel`)
+     local repo_name=$(basename "$(git rev-parse --show-toplevel)")
      local branch_name=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
      echo "${branch_name}"
 }
