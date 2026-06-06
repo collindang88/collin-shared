@@ -1,6 +1,6 @@
-# Collin's Shared/Template Files
+# Collin's Shared Files
 
-Repo for some of my shared/template files I use across multiple projects/computers.
+Repo for some of my shared files I use across multiple projects/computers.
 
 To use the `python-build.mk`: Copy-paste or add this repo as a git submodule, then include it in the local `Makefile` with
 ```
